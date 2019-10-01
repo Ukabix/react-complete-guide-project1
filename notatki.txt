@@ -21,3 +21,5 @@ wykluczone keywords: class (-> className)
 36. props.children - poza właściwościami ...age="29"> My Hobbies: Racing</Person...
 
 37. state / i powiązany this - sterowany z wewnątrz komponentu, podczas gdy props jest z zewnątrz (tutaj funkcja w person.js), używać oszczędnie - w przypadku zmiany zmusza reactDOM do ponownego renderowania
+
+39. handling events via methods
