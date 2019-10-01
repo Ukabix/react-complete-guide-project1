@@ -16,3 +16,8 @@ wykluczone keywords: class (-> className)
 34. Dynamic output - zmienna poprzez {}!
  {Math.floor(Math.random() * 30)} - można tutaj użyć wyrażeń jednoliniowych, ale już nie całych wszystkich klasy czy funkcji
 
+35. konwencja nazywania atrybutów komponentu "props" / name="X" age="10"
+
+36. props.children - poza właściwościami ...age="29"> My Hobbies: Racing</Person...
+
+37. state / i powiązany this - sterowany z wewnątrz komponentu, podczas gdy props jest z zewnątrz (tutaj funkcja w person.js), używać oszczędnie - w przypadku zmiany zmusza reactDOM do ponownego renderowania
