@@ -1,4 +1,4 @@
-JSX na React:
+29- 30. JSX na React:
 
 return (
 	<div className="App">
@@ -11,4 +11,8 @@ powyższe JSX renderuje się na react jak poniżej:
 return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'This works now!'));
 
 JSX Ograniczenia:
-wykluczone keywords: class
+wykluczone keywords: class (-> className)
+
+34. Dynamic output - zmienna poprzez {}!
+ {Math.floor(Math.random() * 30)} - można tutaj użyć wyrażeń jednoliniowych, ale już nie całych wszystkich klasy czy funkcji
+
